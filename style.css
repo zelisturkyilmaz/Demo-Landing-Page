@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navbar start*/
+
+nav {
+    background-color: #1f2937;
+    padding: 20px 300px;
+
+}
+
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Navbar end */
+
+/* Hero content start */
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+    gap: 40px;
+    background-color: #1f2937;
+    /* border: 2px solid saddlebrown; */
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content > * {
+    flex: 1;
+}
+
+
+.hero-image {
+    height: 300px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 900;
+}
+
+/* Hero content End */
+
+
+/* Information Section start */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 400px;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+
+.information > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.illustration {
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    border-radius: 7px;
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+}
+
+/* Information Section end */
+
+/* Quote Section start */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.author {
+    margin-left: auto;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Quote Section end */
+
+
+/* CTA Section start */
+
+.cta {
+    display: flex;
+    padding: 100px 300px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px 0;
+    /* border: 2px solid rebeccapurple; */
+    width: 1200px;
+}
+
+.btn-signup {
+    border: 2px solid #E5E7EB;
+}
+
+.cta-left > * {
+    color: #E5E7EB;
+}
+
+
+/* CTA Section end */
+
+footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:#E5E7EB;
+}
